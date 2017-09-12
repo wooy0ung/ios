@@ -1,0 +1,575 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<!-- Created by GNU Texinfo 5.2, http://www.gnu.org/software/texinfo/ -->
+<head>
+<title>HT Editor Documentation</title>
+
+<meta name="description" content="HT Editor Documentation">
+<meta name="keywords" content="HT Editor Documentation">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="Generator" content="makeinfo">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="#Top" rel="start" title="Top">
+<link href="dir.html#Top" rel="up" title="(dir)">
+<style type="text/css">
+<!--
+a.summary-letter {text-decoration: none}
+blockquote.smallquotation {font-size: smaller}
+div.display {margin-left: 3.2em}
+div.example {margin-left: 3.2em}
+div.indentedblock {margin-left: 3.2em}
+div.lisp {margin-left: 3.2em}
+div.smalldisplay {margin-left: 3.2em}
+div.smallexample {margin-left: 3.2em}
+div.smallindentedblock {margin-left: 3.2em; font-size: smaller}
+div.smalllisp {margin-left: 3.2em}
+kbd {font-style:oblique}
+pre.display {font-family: inherit}
+pre.format {font-family: inherit}
+pre.menu-comment {font-family: serif}
+pre.menu-preformatted {font-family: serif}
+pre.smalldisplay {font-family: inherit; font-size: smaller}
+pre.smallexample {font-size: smaller}
+pre.smallformat {font-family: inherit; font-size: smaller}
+pre.smalllisp {font-size: smaller}
+span.nocodebreak {white-space:nowrap}
+span.nolinebreak {white-space:nowrap}
+span.roman {font-family:serif; font-weight:normal}
+span.sansserif {font-family:sans-serif; font-weight:normal}
+ul.no-bullet {list-style: none}
+-->
+</style>
+
+
+</head>
+
+<body lang="en" bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
+<h1 class="settitle" align="center">HT Editor Documentation</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="Top"></a>
+<div class="header">
+<p>
+Previous: <a href="dir.html#Top" accesskey="p" rel="prev">(dir)</a>, Up: <a href="dir.html#Top" accesskey="u" rel="up">(dir)</a> &nbsp; </p>
+</div>
+<a name="HT-Editor"></a>
+<h3 class="unnumberedsec">HT Editor</h3>
+
+<p>This is HT 2.1.0;
+Have fun&hellip;
+</p>
+<table class="menu" border="0" cellspacing="0">
+<tr><td align="left" valign="top">&bull; <a href="#About" accesskey="1">About</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">
+</td></tr>
+<tr><td align="left" valign="top">&bull; <a href="#Key-bindings" accesskey="2">Key bindings</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">
+</td></tr>
+<tr><td align="left" valign="top">&bull; <a href="#Features" accesskey="3">Features</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">
+</td></tr>
+<tr><td align="left" valign="top">&bull; <a href="#Authors" accesskey="4">Authors</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">
+</td></tr>
+<tr><td align="left" valign="top">&bull; <a href="#Where-to-download_003f" accesskey="5">Where to download?</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">
+</td></tr>
+</table>
+
+<hr>
+<a name="About"></a>
+<div class="header">
+<p>
+Previous: <a href="#Top" accesskey="p" rel="prev">Top</a>, Up: <a href="#Top" accesskey="u" rel="up">Top</a> &nbsp; </p>
+</div>
+<a name="About-1"></a>
+<h3 class="unnumberedsec">About</h3>
+
+<p>This program is a file viewer, editor and analyzer for text, binary, and (especially) executable files.
+</p>
+<blockquote>
+<p>This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 2 as published by
+the Free Software Foundation.
+</p>
+<p>This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+</p>
+<p>You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+</p></blockquote>
+
+<hr>
+<a name="Key-bindings"></a>
+<div class="header">
+<p>
+Previous: <a href="#Top" accesskey="p" rel="prev">Top</a>, Up: <a href="#Top" accesskey="u" rel="up">Top</a> &nbsp; </p>
+</div>
+<a name="Key-bindings-1"></a>
+<h3 class="unnumberedsec">Key bindings</h3>
+
+
+<ul>
+<li> General key bindings
+
+<table>
+<tr><td width="25%">Return</td><td width="75%">follow link (if applicable)</td></tr>
+<tr><td width="25%">Backspace</td><td width="75%">undo &ldquo;follow link&rdquo;</td></tr>
+<tr><td width="25%">Space/F6</td><td width="75%">choose view mode</td></tr>
+<tr><td width="25%">Alt+[1-9]</td><td width="75%">select window</td></tr>
+<tr><td width="25%">Alt+0</td><td width="75%">select window list</td></tr>
+<tr><td width="25%">Ctrl+Left/Right</td><td width="75%">scroll left/right</td></tr>
+<tr><td width="25%">Cursor keys</td><td width="75%">move around</td></tr>
+<tr><td width="25%">Page Up/Down</td><td width="75%">next/prev page</td></tr>
+<tr><td width="25%">Alt+S</td><td width="75%">toggle select</td></tr>
+<tr><td width="25%">Ctrl+Ins/Alt+C</td><td width="75%">copy</td></tr>
+<tr><td width="25%">Shift+Ins/Alt+V</td><td width="75%">insert</td></tr>
+<tr><td width="25%">Ctrl+Del/Alt+D</td><td width="75%">delete</td></tr>
+<tr><td width="25%">Shift+Del/Alt+X</td><td width="75%">cut</td></tr>
+</table>
+
+</li><li> Window key bindings
+
+<table>
+<tr><td width="25%">Alt+F3/Ctrl+W</td><td width="75%">close window</td></tr>
+<tr><td width="25%">Ctrl+F5</td><td width="75%">resize/move mode</td></tr>
+<tr><td width="25%"></td><td width="75%">(in resize/move mode only:)</td></tr>
+<tr><td width="25%">Space</td><td width="75%">toggle resize/move mode</td></tr>
+<tr><td width="25%">Cursor keys</td><td width="75%">resize/move window</td></tr>
+<tr><td width="25%">Escape/Return/Ctrl+F5</td><td width="75%">leave resize/move mode</td></tr>
+</table>
+
+</li><li> Analyser key bindings
+
+<table>
+<tr><td width="25%">c</td><td width="75%">continue code analysis at cursor</td></tr>
+<tr><td width="25%">f</td><td width="75%">follow dword ptr at address</td></tr>
+<tr><td width="25%">n</td><td width="75%">name current address 
+(empty string to delete)</td></tr>
+<tr><td width="25%">x</td><td width="75%">show xrefs (search for xrefs)</td></tr>
+<tr><td width="25%">#</td><td width="75%">edit comments</td></tr>
+<tr><td width="25%">s</td><td width="75%">define a string</td></tr>
+<tr><td width="25%">i</td><td width="75%">define an integer (32bit)</td></tr>
+<tr><td width="25%">h</td><td width="75%">define a halfword (16bit)</td></tr>
+<tr><td width="25%">b</td><td width="75%">define a byte (8bit)</td></tr>
+<tr><td width="25%">Ctrl+A</td><td width="75%">call assembler</td></tr>
+<tr><td width="25%">Ctrl+F</td><td width="75%">goto start of current function<br>
+(indicated in the 2nd line)</td></tr>
+<tr><td width="25%">Ctrl+L</td><td width="75%">goto previous label</td></tr>
+<tr><td width="25%">Ctrl+T</td><td width="75%">show recursive function references</td></tr>
+</table>
+
+</li></ul>
+
+<br>
+<p>Note: Some keys don&rsquo;t work in HT-posix. Try using Escape
+instead of Control or something...
+</p>
+<hr>
+<a name="Authors"></a>
+<div class="header">
+<p>
+Previous: <a href="#Top" accesskey="p" rel="prev">Top</a>, Up: <a href="#Top" accesskey="u" rel="up">Top</a> &nbsp; </p>
+</div>
+<a name="Authors-1"></a>
+<h3 class="unnumberedsec">Authors</h3>
+
+<ul>
+<li> Stefan Weyergraf
+
+</li><li> Sebastian Biallas <a href="mailto:sb@biallas.net">sb@biallas.net</a>
+</li></ul>
+
+<hr>
+<a name="Features"></a>
+<div class="header">
+<p>
+Previous: <a href="#Top" accesskey="p" rel="prev">Top</a>, Up: <a href="#Top" accesskey="u" rel="up">Top</a> &nbsp; </p>
+</div>
+<a name="Features-1"></a>
+<h3 class="unnumberedsec">Features</h3>
+
+<p>HT contains some very advanced and useful features, which you
+should carefully inspect:
+</p>
+<table class="menu" border="0" cellspacing="0">
+<tr><td align="left" valign="top">&bull; <a href="#General-features" accesskey="1">General features</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">
+</td></tr>
+<tr><td align="left" valign="top">&bull; <a href="#Configuration-files" accesskey="2">Configuration files</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">
+</td></tr>
+<tr><td align="left" valign="top">&bull; <a href="#Clipboard" accesskey="3">Clipboard</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">
+</td></tr>
+<tr><td align="left" valign="top">&bull; <a href="#Global-history" accesskey="4">Global history</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">
+</td></tr>
+<tr><td align="left" valign="top">&bull; <a href="#Expression-evaluation" accesskey="5">Expression evaluation</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">
+</td></tr>
+<tr><td align="left" valign="top">&bull; <a href="#Block-operations" accesskey="6">Block operations</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">
+</td></tr>
+<tr><td align="left" valign="top">&bull; <a href="#Search-and-its-different-modes" accesskey="7">Search and its different modes</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">
+</td></tr>
+<tr><td align="left" valign="top">&bull; <a href="#Command-line-options" accesskey="8">Command line options</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">
+</td></tr>
+</table>
+
+<hr>
+<a name="General-features"></a>
+<div class="header">
+<p>
+Previous: <a href="#Features" accesskey="p" rel="prev">Features</a>, Up: <a href="#Features" accesskey="u" rel="up">Features</a> &nbsp; </p>
+</div>
+<a name="General-features-1"></a>
+<h3 class="unnumberedsec">General features</h3>
+
+<ol>
+<li> Supported file formats
+<ul>
+<li> common object file format (COFF/XCOFF32)
+<ul class="no-bullet">
+<li><!-- /@w --> - header <br>
+- image with code/data analyser (x86)
+</li></ul>
+</li><li> executable and linkable format (ELF)
+<ul class="no-bullet">
+<li><!-- /@w --> - header <br>
+- section headers <br>
+- program headers <br>
+- symbol tables <br>
+- image with code/data analyser (x86, AMD64, Alpha, PowerPC, ARM, AVR) and relocations
+</li></ul>
+</li><li> linear executables (LE)
+<ul class="no-bullet">
+<li><!-- /@w --> - header <br>
+- VxD descriptor <br>
+- object table <br>
+- page table <br>
+- image with code/data analyser (x86) <br>
+- auto-relocation layer (only internal refs for now)
+</li></ul>
+</li><li> standard dos executables (MZ)
+<ul class="no-bullet">
+<li><!-- /@w --> - header <br>
+- relocations <br>
+- image (disassembly only)
+</li></ul>
+</li><li> new executables (NE)
+<ul class="no-bullet">
+<li><!-- /@w --> - header <br>
+- segments <br>
+- names <br>
+- entrypoints <br>
+- image with code/data analyser (x86) <br>
+- auto-relocation layer (pretty complete)
+</li></ul>
+</li><li> portable executables (PE32, PE64)
+<ul class="no-bullet">
+<li><!-- /@w --> - header <br>
+- import section <br>
+- delay-import section <br>
+- export section <br>
+- resources <br>
+- image with code/data analyser (x86, AMD64, PowerPC, Alpha, ARM) <br>
+- preliminary support for .net executables
+</li></ul>
+</li><li> java class files (CLASS)
+<ul class="no-bullet">
+<li><!-- /@w --> - header <br>
+- image with code/data analyser (java bytecode disassembler)
+</li></ul>
+</li><li> Mach exe/link format (MachO)
+<ul class="no-bullet">
+<li><!-- /@w --> - header <br>
+- image with code/data analyser (x86, AMD64, PowerPC, ARM) <br>
+</li></ul>
+</li><li> X-Box executable (XBE)
+<ul class="no-bullet">
+<li><!-- /@w --> - header <br>
+- imports <br>
+- image with code/data analyser (x86) <br>
+</li></ul>
+</li><li> Flat (FLT)
+<ul class="no-bullet">
+<li><!-- /@w --> - header <br>
+- image with data analyser (no disassembler yet) <br>
+</li></ul>
+</li><li> PowerPC executable format (PEF)
+<ul class="no-bullet">
+<li><!-- /@w --> - header <br>
+- imports
+- image with code/data analyser (PowerPC) <br>
+</li></ul>
+</li><li> Still some to be implemented (M$-OBJ, ARCH, LX)
+</li></ul>
+</li><li> Code &amp; Data Analyser
+<ul class="no-bullet">
+<li>- finds branch sources and destinations recursively <br>
+- finds procedure entries <br>
+- creates labels based on this information <br>
+- creates xref information <br>
+- allows to interactively analyse unexplored code (press &rsquo;c&rsquo;) <br>
+- allows to create/rename/delete labels (press &rsquo;n&rsquo;) <br>
+- allows to create/edit comments (press &rsquo;#&rsquo;)
+</li></ul>
+</li><li> Target systems
+<ul class="no-bullet">
+<li>- GNU/Linux <br>
+- FreeBSD <br>
+- Win32
+</li></ul>
+</li></ol>
+
+<hr>
+<a name="Configuration-files"></a>
+<div class="header">
+<p>
+Previous: <a href="#Features" accesskey="p" rel="prev">Features</a>, Up: <a href="#Features" accesskey="u" rel="up">Features</a> &nbsp; </p>
+</div>
+<a name="Configuration-files-1"></a>
+<h3 class="unnumberedsec">Configuration files</h3>
+
+<a name="Global-configuration"></a>
+<h4 class="unnumberedsubsec">Global configuration</h4>
+<p>HT automatically creates a file to store its configuration.
+It is called <samp>~/.htcfg2</samp> on Unices and <samp>ht.cfg2</samp> (where 
+ht.exe resides) on Windows. More specifically it contains HT&rsquo;s registry 
+and the See <a href="#Global-history">Global history</a>.
+</p>
+<a name="Per-file-configuration"></a>
+<h4 class="unnumberedsubsec">Per file configuration</h4>
+<p>The analyser (for analysable files) will be stored in an extra file called 
+<samp>FILENAME.htcfg</samp>, where FILENAME is the analysed file. This file contains
+all information to restore the complete state of the analyser.
+</p>
+<hr>
+<a name="Clipboard"></a>
+<div class="header">
+<p>
+Previous: <a href="#Features" accesskey="p" rel="prev">Features</a>, Up: <a href="#Features" accesskey="u" rel="up">Features</a> &nbsp; </p>
+</div>
+<a name="Clipboard-1"></a>
+<h3 class="unnumberedsec">Clipboard</h3>
+
+<p>All open files and dialogs use the common clipboard, where all
+copied and cut text or binary data is stored. Clipboard operations are 
+normally binary safe, that means you can copy some binary data out of a
+file and paste it into an input line. Exceptions are only the \0 character
+(binary null), it will be converted to a space in places where it would not
+make sense (e.g. file open). 
+</p>
+<p>Although the clipboard won&rsquo;t be saved between different HT sessions
+(ie. you will loose it when exiting HT), you can either save and load it
+or part of it manually (via Edit-&gt;paste into/copy from file) or rely on
+the input lines&rsquo; See <a href="#Global-history">history</a>, which is stored and
+retrieved from the config file automatically.
+</p>
+<hr>
+<a name="Global-history"></a>
+<div class="header">
+<p>
+Previous: <a href="#Features" accesskey="p" rel="prev">Features</a>, Up: <a href="#Features" accesskey="u" rel="up">Features</a> &nbsp; </p>
+</div>
+<a name="Global-history-1"></a>
+<h3 class="unnumberedsec">Global history</h3>
+
+<p>HTs history system is global, which means that you can use it for all open
+files. Histories are also grouped by their context. I.e. file-related and 
+regex-search-related dialogs have their own history (who would want to 
+open &quot;[0-9][0-9a-z]+&quot; anyway?).
+</p>
+<p>History entries are stored within the See <a href="#Configuration-files">Configuration files</a>, so they
+can be reused when you relaunch.
+</p>
+<p>You can delete a history entry by pressing DEL inside the history popup.
+</p>
+<hr>
+<a name="Expression-evaluation"></a>
+<div class="header">
+<p>
+Previous: <a href="#Features" accesskey="p" rel="prev">Features</a>, Up: <a href="#Features" accesskey="u" rel="up">Features</a> &nbsp; </p>
+</div>
+<a name="Expression-evaluation-1"></a>
+<h3 class="unnumberedsec">Expression evaluation</h3>
+
+<p>HT contains a very powerful expression evaluator which is used in all dialogs
+where expressions are expected. These are mainly blockoperation, goto,
+search and of course evaluate itself (Edit-&gt;Evaluate).
+</p>
+<p>You can use all standard math operators (+ - / * % **), logical operators
+(! &amp;&amp; || ^^), relational operators (== != &lt; &gt; &lt;= &gt;=),
+bit operators (~ &amp; | ^), string operators (. for concatenation),
+parenthesis, the ternary operator (a?b:c), functions and symbols 
+(both depending on context).
+</p>
+<p>The evaluator uses integer, string and float types depending on context. You
+can always convert a result via the <code>int()</code>, <code>string()</code> and <code>float()</code> functions
+to appropriate type. Try Edit-&gt;Evaluate to see how it works&hellip;
+</p>
+<a name="Functions-and-symbols"></a>
+<h4 class="unnumberedsubsec">Functions and symbols</h4>
+<p>You can always use the standard built-in math (<code>round</code>, <code>sin</code>, <code>random</code>, etc.) and
+string (<code>strcmp</code>, <code>strchr</code>, <code>sprintf</code>, etc.) functions, they work more or less like the corresponding
+C functions (actually they ARE more or less wrappers for them); see <samp>eval/eval.y</samp> for 
+details (sorry but a detailed help would get outdated rather soon).
+</p>
+<p>The symbol _ always refers to the last result.
+If you are in a hex buffer, the variable <code>first</code> contains the offset of the first byte and the variable
+<code>last</code> contains the offset of the last byte. This is useful, for instance, if you want to jump to the last byte of a file.
+</p>
+<p>When using See <a href="#Block-operations">Block operations</a>, or searching you have some 
+context depending functions and symbols; see these sections for explanation.
+</p>
+<hr>
+<a name="Block-operations"></a>
+<div class="header">
+<p>
+Previous: <a href="#Features" accesskey="p" rel="prev">Features</a>, Up: <a href="#Features" accesskey="u" rel="up">Features</a> &nbsp; </p>
+</div>
+<a name="Block-operations-1"></a>
+<h3 class="unnumberedsec">Block operations</h3>
+
+<p>Block operation (Blockop) is a very powerful tool to perform modifications
+on binary files. It is available in hex viewer only.
+</p>
+<p>Blockop takes four parameters: <var>start</var>, <var>end</var>, <var>mode</var> and
+<var>expression</var>. Blockop works as follows:
+</p>
+<ul>
+<li> START: Start at the offset specified by <var>start</var>
+</li><li> REPEAT: Evaluate <var>expression</var> and store n bytes (1 - byte, 2 - word,
+4 - dword, variable - string) at the current offset. Increment current offset
+by n. Stop if <var>end</var> has been reached.
+</li></ul>
+
+<p>Special variables/functions that can be used in <var>expression</var>:
+</p>
+<dl compact="compact">
+<dt><code>readbyte(ofs)</code></dt>
+<dd><p>read a byte from offset <var>ofs</var>, returns a number
+</p></dd>
+<dt><code>readstring(ofs, size)</code></dt>
+<dd><p>read <var>size</var> bytes from offset <var>ofs</var>, returns a string
+</p></dd>
+<dt><code>i</code></dt>
+<dd><p>contains the iteration count/index starting with 0
+</p></dd>
+<dt><code>o</code></dt>
+<dd><p>contains the current offset
+</p></dd>
+</dl>
+
+<hr>
+<a name="Search-and-its-different-modes"></a>
+<div class="header">
+<p>
+Previous: <a href="#Features" accesskey="p" rel="prev">Features</a>, Up: <a href="#Features" accesskey="u" rel="up">Features</a> &nbsp; </p>
+</div>
+<a name="Search-and-its-different-modes-1"></a>
+<h3 class="unnumberedsec">Search and its different modes</h3>
+
+<p>The search function is one of the most advanced functions of HT.
+It is invoked through F7, Shift-F7 continues a search from cursor.
+Depending on context (ie. file type and mode) the following modes are enabled:
+</p>
+<a name="bin_003a-ASCII-_002f-Hex"></a>
+<h4 class="unnumberedsubsec">bin: ASCII / Hex</h4>
+<p>Enter an exact search string either via ascii characters or via hexadecimal
+interpretation. This is the fastest search mode. You may specify a 
+case-insensitive search.
+</p>
+<a name="bin_003a-eval-str"></a>
+<h4 class="unnumberedsubsec">bin: eval str</h4>
+<p>Enter an expression, it will be evaluated ONCE (difference to the 4th mode),
+and HT will then search for the result-string. This is pretty useful when
+searching for intermixed text and control-chars/binary, e.g. <code>&quot;hello world\n\0&quot;</code>
+</p>
+<a name="display_003a-regex"></a>
+<h4 class="unnumberedsubsec">display: regex</h4>
+<p>As the prefix indicates, this search doesn&rsquo;t search in the binary file but
+in the display on screen. HT searches for a regular expression so this can
+be very powerful, e.g. in PE/Image you can search for <code>(add|sub).+?,\ [78]$</code>.
+This will find all add or sub instructions with second parameter 7 or 8.
+</p>
+<a name="expr-nonzero"></a>
+<h4 class="unnumberedsubsec">expr nonzero</h4>
+<p>This is the slowest but also most advanced search mode. Enter an expression
+and the search stops if this expression evaluates to non-zero (it will be 
+evaluated on every byte). In this mode there are two predefined symbols
+and some functions: <var>i</var> is always the number of current iteration and
+<var>o</var> stands for the current offset in file. With the functions <code>readbyte(ofs)</code>
+and <code>readstring(ofs, size)</code> you access the file&rsquo;s content.
+</p>
+<p>It&rsquo;s easier to understand this with examples:
+</p>
+<ol>
+<li> Searching for patterns: 
+
+<ol>
+<li> Enter <code>readbyte(o) == readbyte(o+1)</code><br>
+This will search for two equal bytes (&quot;AA&quot;, &quot;55&quot;, &quot;!!&quot;, etc.).
+</li><li> Enter <code>(readbyte(o) == readbyte(o+1)-1) &amp;&amp; (readbyte(o)==readbyte(o+2)-2)</code><br>
+This will search for three ascending bytes (&quot;ABC&quot;, &quot;123&quot;, etc).
+</li></ol>
+
+</li><li> Search with special functions:
+
+<p>With HT you can easily detect the RSA key in the <samp>ADVAPI32.DLL</samp>:
+Search for <code>entropy(readstring(o, 64)) &gt; 82</code> in expr!=0 mode, and you will
+find it very quickly. How does it work? <code>readstring(o, 64)</code> reads a 64 byte string
+from current offset and entropy calculates the entropy (&quot;randomness&quot;) of a string (result is 0..100).
+So the search stops if a entropy greater than 82% (guessed value)
+is encountered, which normally indicates packed or encryted data.
+</p>
+<p>Note: the <code>entropy()</code> function is not the best of its kind, if you know of a better
+one please let us know!
+</p>
+</li></ol>
+
+<hr>
+<a name="Command-line-options"></a>
+<div class="header">
+<p>
+Previous: <a href="#Features" accesskey="p" rel="prev">Features</a>, Up: <a href="#Features" accesskey="u" rel="up">Features</a> &nbsp; </p>
+</div>
+<a name="Command-line-options-1"></a>
+<h3 class="unnumberedsec">Command line options</h3>
+
+<table>
+<tr><td width="10%"><code>--</code></td><td width="20%"></td><td width="70%">treat all additional parameters as file names</td></tr>
+<tr><td width="10%"><code>-v</code></td><td width="20%"><code>--version</code></td><td width="70%">show version and copyright on console</td></tr>
+<tr><td width="10%"><code>-h</code></td><td width="20%"><code>--help</code></td><td width="70%">show help</td></tr>
+<tr><td width="10%"><code>-t</code></td><td width="20%"><code>--text</code></td><td width="70%">load file(s) in text editor mode</td></tr>
+<tr><td width="10%"><code>-b</code></td><td width="20%"><code>--bin</code></td><td width="70%">load file(s) in hex editor mode</td></tr>
+<tr><td width="10%"><code>-a</code></td><td width="20%"><code>--auto</code></td><td width="70%">try to guess file type</td></tr>
+</table>
+
+<hr>
+<a name="Where-to-download_003f"></a>
+<div class="header">
+<p>
+Previous: <a href="#Top" accesskey="p" rel="prev">Top</a>, Up: <a href="#Top" accesskey="u" rel="up">Top</a> &nbsp; </p>
+</div>
+<a name="Where-to-download_003f-1"></a>
+<h3 class="unnumberedsec">Where to download?</h3>
+
+<p>The HT homepage is located at 
+<a href="http://hte.sourceforge.net">http://hte.sourceforge.net</a>
+</p>
+<p>Downloads are available from the &rsquo;download&rsquo; section. 
+Please also take a look at
+<a href="http://sourceforge.net/projects/hte">http://sourceforge.net/projects/hte</a>
+</p>
+<hr>
+
+
+
+</body>
+</html>
